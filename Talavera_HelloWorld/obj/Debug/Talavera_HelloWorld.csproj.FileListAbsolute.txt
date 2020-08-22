@@ -1,0 +1,7 @@
+C:\Users\lenov\source\repos\myIGME-201\Talavera_HelloWorld\bin\Debug\Talavera_HelloWorld.exe.config
+C:\Users\lenov\source\repos\myIGME-201\Talavera_HelloWorld\bin\Debug\Talavera_HelloWorld.exe
+C:\Users\lenov\source\repos\myIGME-201\Talavera_HelloWorld\bin\Debug\Talavera_HelloWorld.pdb
+C:\Users\lenov\source\repos\myIGME-201\Talavera_HelloWorld\obj\Debug\Talavera_HelloWorld.csprojAssemblyReference.cache
+C:\Users\lenov\source\repos\myIGME-201\Talavera_HelloWorld\obj\Debug\Talavera_HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\lenov\source\repos\myIGME-201\Talavera_HelloWorld\obj\Debug\Talavera_HelloWorld.exe
+C:\Users\lenov\source\repos\myIGME-201\Talavera_HelloWorld\obj\Debug\Talavera_HelloWorld.pdb
