@@ -1,0 +1,7 @@
+D:\Profiles\jrt5717\source\repos\myIGME-201\remoteDesktop\bin\Debug\remoteDesktop.exe.config
+D:\Profiles\jrt5717\source\repos\myIGME-201\remoteDesktop\bin\Debug\remoteDesktop.exe
+D:\Profiles\jrt5717\source\repos\myIGME-201\remoteDesktop\bin\Debug\remoteDesktop.pdb
+D:\Profiles\jrt5717\source\repos\myIGME-201\remoteDesktop\obj\Debug\remoteDesktop.csprojAssemblyReference.cache
+D:\Profiles\jrt5717\source\repos\myIGME-201\remoteDesktop\obj\Debug\remoteDesktop.csproj.CoreCompileInputs.cache
+D:\Profiles\jrt5717\source\repos\myIGME-201\remoteDesktop\obj\Debug\remoteDesktop.exe
+D:\Profiles\jrt5717\source\repos\myIGME-201\remoteDesktop\obj\Debug\remoteDesktop.pdb
