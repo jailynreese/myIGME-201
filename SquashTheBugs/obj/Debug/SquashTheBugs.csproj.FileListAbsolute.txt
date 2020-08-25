@@ -1,0 +1,7 @@
+Z:\IGMProfile\Documents\repos\SquashTheBugs\bin\Debug\SquashTheBugs.exe.config
+Z:\IGMProfile\Documents\repos\SquashTheBugs\bin\Debug\SquashTheBugs.exe
+Z:\IGMProfile\Documents\repos\SquashTheBugs\bin\Debug\SquashTheBugs.pdb
+Z:\IGMProfile\Documents\repos\SquashTheBugs\obj\Debug\SquashTheBugs.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\SquashTheBugs\obj\Debug\SquashTheBugs.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\SquashTheBugs\obj\Debug\SquashTheBugs.exe
+Z:\IGMProfile\Documents\repos\SquashTheBugs\obj\Debug\SquashTheBugs.pdb
