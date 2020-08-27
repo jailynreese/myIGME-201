@@ -1,0 +1,7 @@
+Z:\IGMProfile\Documents\repos\PE3_VariablesAndExpressions\bin\Debug\PE3_VariablesAndExpressions.exe.config
+Z:\IGMProfile\Documents\repos\PE3_VariablesAndExpressions\bin\Debug\PE3_VariablesAndExpressions.exe
+Z:\IGMProfile\Documents\repos\PE3_VariablesAndExpressions\bin\Debug\PE3_VariablesAndExpressions.pdb
+Z:\IGMProfile\Documents\repos\PE3_VariablesAndExpressions\obj\Debug\PE3_VariablesAndExpressions.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\PE3_VariablesAndExpressions\obj\Debug\PE3_VariablesAndExpressions.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\PE3_VariablesAndExpressions\obj\Debug\PE3_VariablesAndExpressions.exe
+Z:\IGMProfile\Documents\repos\PE3_VariablesAndExpressions\obj\Debug\PE3_VariablesAndExpressions.pdb
