@@ -1,0 +1,7 @@
+Z:\IGMProfile\Documents\repos\Mandelbrot\obj\Debug\Mandelbrot.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\Mandelbrot\obj\Debug\Mandelbrot.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\Mandelbrot\bin\Debug\Mandelbrot.exe.config
+Z:\IGMProfile\Documents\repos\Mandelbrot\bin\Debug\Mandelbrot.exe
+Z:\IGMProfile\Documents\repos\Mandelbrot\bin\Debug\Mandelbrot.pdb
+Z:\IGMProfile\Documents\repos\Mandelbrot\obj\Debug\Mandelbrot.exe
+Z:\IGMProfile\Documents\repos\Mandelbrot\obj\Debug\Mandelbrot.pdb
