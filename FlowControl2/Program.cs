@@ -42,7 +42,7 @@ namespace FlowControl2
                 }
              }
 
-            Console.WriteLine(input1 + " & " + input2 + " are greater than 10.");
+            Console.WriteLine(input1 + " & " + input2 + " are greater than 10."); 
         }
     } 
 }
