@@ -62,16 +62,14 @@ namespace Mandelbrot
                     Console.WriteLine("One of the values you inputed is not valid. Please try again.");
                 }
             }
-
-            Console.WriteLine(startIC + " " + endIC + " " + startRC + " " + endRC);
          
             double realCoord, imagCoord;
             double realTemp, imagTemp, realTemp2, arg;
             int iterations;
 
             //creates intervals for the loops​
-            double intervalsIC = (startIC + endIC) / 48;
-            double intervalsRC = (startRC + endRC) / 80;
+            double intervalsIC = (Math.Abs(startIC) + Math.Abs(endIC)) / 48;
+            double intervalsRC = (Math.Abs(startRC) + Math.Abs(endRC)) / 80;
             
             for (imagCoord = startIC; imagCoord >= endIC; imagCoord -= intervalsIC)
             {
@@ -106,8 +104,9 @@ namespace Mandelbrot
                             break;
                     }
                 }
+                Console.Write("\n");
             }
-            Console.Write("\n");
+            
         }
     }
 }
