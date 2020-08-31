@@ -1,0 +1,7 @@
+Z:\IGMProfile\Documents\repos\PE6\bin\Debug\PE6.exe.config
+Z:\IGMProfile\Documents\repos\PE6\bin\Debug\PE6.exe
+Z:\IGMProfile\Documents\repos\PE6\bin\Debug\PE6.pdb
+Z:\IGMProfile\Documents\repos\PE6\obj\Debug\PE6.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\PE6\obj\Debug\PE6.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\PE6\obj\Debug\PE6.exe
+Z:\IGMProfile\Documents\repos\PE6\obj\Debug\PE6.pdb
