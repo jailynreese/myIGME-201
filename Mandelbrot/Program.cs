@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace Mandelbrot
 {
+    //Class: Program
+    //Author: Jailyn Talavera
+    //Purpose: Mandelbrot project
+    //Restrictions: none
     class Program
     {
+        //Method: Main
+        //Purpose: creates an image in console based on user input
+        //Restrictions: None
         static void Main(string[] args)
         {
             //user's start and end values for imgCoord & realCoord
