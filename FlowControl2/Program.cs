@@ -6,13 +6,20 @@ using System.Threading.Tasks;
 
 namespace FlowControl2
 {
-    //exercise 1 for FLow Control
+    // Class Program
+    // Author: Jailyn Talavera
+    // Purpose: PE4 Flow Control 
+    // Restrictions: None
+    
     class Program
     {
+        // Method: Main
+        // Purpose: answer to exercise 1
+        // Restrictions: None
         static void Main(string[] args)
         {
 
-            //testc var for teh while loop
+            //test var for the while loop
             bool greaterThan = false;
 
             Console.WriteLine("Please input 2 numbers that are greater than 10");
@@ -21,6 +28,7 @@ namespace FlowControl2
             int input1 = 0;
             int input2 = 0;
 
+            //keeps running until the user inputs 2 values that are both greater than 10
             while (!greaterThan)
             { 
                 //reads the input
@@ -36,12 +44,15 @@ namespace FlowControl2
                 {
                     greaterThan = true;
                 }
+
+                //if the numbers aren't greater than 10
                 else
                 {
                     Console.WriteLine("Please enter 2 new numbers that are greater than 10");
                 }
              }
 
+            //prints the 2 values that are greater than 10
             Console.WriteLine(input1 + " & " + input2 + " are greater than 10."); 
         }
     } 
