@@ -39,8 +39,19 @@ namespace PE6
                 //reads user's guess
                 String guess = Console.ReadLine();
 
-                //convert string to int so it can be compared to random number
-                int num = int.Parse(guess);
+               //int variable in order to compare input to random number
+               //if the user doesn't give a valid value, num will reach the else statement (invalid statement)
+                int num = -4;
+
+
+                //ensures that the value given from the user is an int
+                if (Int32.TryParse(guess, out num))
+                {
+                    //changes value of num to value given by user
+                    num = int.Parse(guess);
+
+                }   
+
 
                 //if statement to compare guess to randomNumber
                 //if the guess is the correct answer
@@ -64,7 +75,7 @@ namespace PE6
                     Console.WriteLine("Too low.");
                 }
 
-                //if the guess was not within 0 - 100 (invalid guess)
+                //if the guess was not within 0 - 100 or not a number
                 //invalid guess lets them have another turn 
                 else
                 {
