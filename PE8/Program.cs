@@ -24,7 +24,6 @@ namespace PE8
             
             int xIndex = 0;
             int yIndex = 0;
-            int k = 0;
 
             double z;
 
@@ -32,17 +31,19 @@ namespace PE8
             {
                 for(double j = 1; j <= 4; j += 0.1)
                 {
-                    for(int k = 0; k <= 800; ++k)
+                    /*for(int k = 0; k <= 800; ++k)
                     {
                         double y = j * j * 3;
                         double x = 2 * i;
                         z = y + x - 1;
+
                         //commented this statement out because i am getting an out of bounds error
                        // xyz[xIndex, yIndex, k] = z;
                     }
-                   ++yIndex;
-                    
+                   ++yIndex; */
 
+                    yIndex++;
+                    Console.WriteLine(yIndex);
 
                 }
                 ++xIndex;

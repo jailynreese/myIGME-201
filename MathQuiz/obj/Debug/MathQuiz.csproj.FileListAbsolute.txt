@@ -1,0 +1,7 @@
+Z:\IGMProfile\Documents\repos\MathQuiz\bin\Debug\MathQuiz.exe.config
+Z:\IGMProfile\Documents\repos\MathQuiz\bin\Debug\MathQuiz.exe
+Z:\IGMProfile\Documents\repos\MathQuiz\bin\Debug\MathQuiz.pdb
+Z:\IGMProfile\Documents\repos\MathQuiz\obj\Debug\MathQuiz.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\MathQuiz\obj\Debug\MathQuiz.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\MathQuiz\obj\Debug\MathQuiz.exe
+Z:\IGMProfile\Documents\repos\MathQuiz\obj\Debug\MathQuiz.pdb
