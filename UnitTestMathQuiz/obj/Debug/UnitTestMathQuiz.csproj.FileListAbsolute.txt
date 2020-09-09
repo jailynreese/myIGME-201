@@ -1,0 +1,7 @@
+Z:\IGMProfile\Documents\repos\UnitTestMathQuiz\bin\Debug\UnitTestMathQuiz.exe.config
+Z:\IGMProfile\Documents\repos\UnitTestMathQuiz\bin\Debug\UnitTestMathQuiz.exe
+Z:\IGMProfile\Documents\repos\UnitTestMathQuiz\bin\Debug\UnitTestMathQuiz.pdb
+Z:\IGMProfile\Documents\repos\UnitTestMathQuiz\obj\Debug\UnitTestMathQuiz.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\UnitTestMathQuiz\obj\Debug\UnitTestMathQuiz.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\UnitTestMathQuiz\obj\Debug\UnitTestMathQuiz.exe
+Z:\IGMProfile\Documents\repos\UnitTestMathQuiz\obj\Debug\UnitTestMathQuiz.pdb
