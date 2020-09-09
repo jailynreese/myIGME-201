@@ -16,17 +16,18 @@ namespace ReadLine
         // Purpose: solution to #3
         // Restrictions: None
 
-        delegate string read();
+        delegate string readLine();
 
-        static string readLine()
-        {
-            
-        }
         static void Main(string[] args)
         {
-            read readInput;
+            //declare delegate;
+            readLine readInput;
 
-            readInput = new read(readLine);
+            //construct delegate
+            readInput = new readLine(Console.ReadLine);
+
+            //call delegate
+            string input = readInput();
 
         }
     }
