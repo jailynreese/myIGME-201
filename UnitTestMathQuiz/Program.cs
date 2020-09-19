@@ -176,74 +176,75 @@ namespace UnitTestMathQuiz
                 {
                     double dAnswer = val1 / val2;
                     nAnswer = Math.Round(dAnswer, 2);
-            sQuestions = $"Question #{nCntr + 1}: (round your answer to 2 decimal places if needed)" + $"\n{val1} / {val2} => ";
-        }
+                    sQuestions = $"Question #{nCntr + 1}: (round your answer to 2 decimal places if needed)" + $"\n{val1} / {val2} => ";
+                }
 
 
-            // display the question and prompt for the answer
+                // display the question and prompt for the answer
+                do
+                {
+                    Console.Write(sQuestions);
+                    sResponse = Console.ReadLine();
+
+                    try
+                    {
+                        nResponse = double.Parse(sResponse);
+                        bValid = true;
+                    }
+                    catch
+                    {
+                        Console.WriteLine("Please enter an integer.");
+                        bValid = false;
+                    }
+
+                } while (!bValid) ;
+
+                // if response == answer, output flashy reward and increment # correct
+                // else output stark answer
+                if (nResponse == nAnswer)
+                    {
+                    Console.BackgroundColor = ConsoleColor.Blue;
+                    Console.ForegroundColor = ConsoleColor.Magenta;
+                    Console.WriteLine("Well done, {0}!!!", myName);
+
+                    ++nCorrect;
+                }
+                else
+                {
+                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("I'm sorry {0}. The answer is {1}", myName, nAnswer);
+                }
+
+                Console.BackgroundColor = ConsoleColor.Black;
+                Console.ForegroundColor = ConsoleColor.White;
+
+                Console.WriteLine();
+            }
+
+            Console.WriteLine();
+
+            // output how many they got correct and their score
+            Console.WriteLine("You got {0} correct out of {1}, which is a score of {2:P2}", nCorrect, nQuestions, Convert.ToDouble(nCorrect) / (double)nCntr);
+            Console.WriteLine();
+
             do
             {
-                Console.Write(sQuestions);
-                sResponse = Console.ReadLine();
+                // prompt if they want to play again
+                Console.Write("Do you want to play again? ");
 
-                try
+                sAgain = Console.ReadLine();
+
+                if (sAgain.ToLower().StartsWith("y"))
                 {
-                    nResponse = double.Parse(sResponse);
-        bValid = true;
+                    goto start;
                 }
-                catch
+                else if (sAgain.ToLower().StartsWith("n"))
                 {
-                    Console.WriteLine("Please enter an integer.");
-                    bValid = false;
+                    break;
                 }
+            } while (true);
 
-            } while (!bValid) ;
-
-// if response == answer, output flashy reward and increment # correct
-// else output stark answer
-if (nResponse == nAnswer)
-{
-    Console.BackgroundColor = ConsoleColor.Blue;
-    Console.ForegroundColor = ConsoleColor.Magenta;
-    Console.WriteLine("Well done, {0}!!!", myName);
-
-    ++nCorrect;
-}
-else
-{
-    Console.BackgroundColor = ConsoleColor.Black;
-    Console.ForegroundColor = ConsoleColor.Red;
-    Console.WriteLine("I'm sorry {0}. The answer is {1}", myName, nAnswer);
-}
-
-Console.BackgroundColor = ConsoleColor.Black;
-Console.ForegroundColor = ConsoleColor.White;
-
-Console.WriteLine();
         }
-
-        Console.WriteLine();
-
-// output how many they got correct and their score
-Console.WriteLine("You got {0} correct out of {1}, which is a score of {2:P2}", nCorrect, nQuestions, Convert.ToDouble(nCorrect) / (double)nCntr);
-Console.WriteLine();
-
-do
-{
-    // prompt if they want to play again
-    Console.Write("Do you want to play again? ");
-
-    sAgain = Console.ReadLine();
-
-    if (sAgain.ToLower().StartsWith("y"))
-    {
-        goto start;
     }
-    else if (sAgain.ToLower().StartsWith("n"))
-    {
-        break;
-    }
-} while (true);
-    }
-}
 }
