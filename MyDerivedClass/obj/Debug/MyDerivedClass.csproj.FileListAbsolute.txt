@@ -1,0 +1,10 @@
+Z:\IGMProfile\Documents\repos\MyDerivedClass\bin\Debug\MyDerivedClass.exe.config
+Z:\IGMProfile\Documents\repos\MyDerivedClass\bin\Debug\MyDerivedClass.exe
+Z:\IGMProfile\Documents\repos\MyDerivedClass\bin\Debug\MyDerivedClass.pdb
+Z:\IGMProfile\Documents\repos\MyDerivedClass\bin\Debug\MyClass.dll
+Z:\IGMProfile\Documents\repos\MyDerivedClass\bin\Debug\MyClass.pdb
+Z:\IGMProfile\Documents\repos\MyDerivedClass\obj\Debug\MyDerivedClass.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\MyDerivedClass\obj\Debug\MyDerivedClass.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\MyDerivedClass\obj\Debug\MyDerivedClass.csproj.CopyComplete
+Z:\IGMProfile\Documents\repos\MyDerivedClass\obj\Debug\MyDerivedClass.exe
+Z:\IGMProfile\Documents\repos\MyDerivedClass\obj\Debug\MyDerivedClass.pdb

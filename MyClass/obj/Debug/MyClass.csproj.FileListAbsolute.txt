@@ -1,0 +1,6 @@
+Z:\IGMProfile\Documents\repos\MyClass\bin\Debug\MyClass.dll
+Z:\IGMProfile\Documents\repos\MyClass\bin\Debug\MyClass.pdb
+Z:\IGMProfile\Documents\repos\MyClass\obj\Debug\MyClass.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\MyClass\obj\Debug\MyClass.dll
+Z:\IGMProfile\Documents\repos\MyClass\obj\Debug\MyClass.pdb
