@@ -21,7 +21,7 @@ namespace PeopleApp
         static void Main(string[] args)
         {
             //create our Courses SortedList
-            Courses courses = new Courses();
+            Courses sched = new Courses();
 
             // create our People SortedList!
             People people = new People();
@@ -130,9 +130,6 @@ namespace PeopleApp
                                 Student student = (Student)thisPerson;
                                 Console.WriteLine($"{student.gpa}");
 
- 
-                                //courses initialization
-                                Courses sched = new Courses();
 
                                 //display courseCode and courseDescription
                                 foreach (KeyValuePair<string, Course> thisSched in sched.sortedList)
