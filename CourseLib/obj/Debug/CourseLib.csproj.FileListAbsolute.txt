@@ -1,0 +1,6 @@
+Z:\IGMProfile\Documents\repos\CourseLib\obj\Debug\CourseLib.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\CourseLib\obj\Debug\CourseLib.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\CourseLib\bin\Debug\CourseLib.dll
+Z:\IGMProfile\Documents\repos\CourseLib\bin\Debug\CourseLib.pdb
+Z:\IGMProfile\Documents\repos\CourseLib\obj\Debug\CourseLib.dll
+Z:\IGMProfile\Documents\repos\CourseLib\obj\Debug\CourseLib.pdb

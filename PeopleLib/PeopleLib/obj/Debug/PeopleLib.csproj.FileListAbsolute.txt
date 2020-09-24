@@ -1,0 +1,6 @@
+Z:\IGMProfile\Documents\repos\PeopleLib\PeopleLib\bin\Debug\PeopleLib.dll
+Z:\IGMProfile\Documents\repos\PeopleLib\PeopleLib\bin\Debug\PeopleLib.pdb
+Z:\IGMProfile\Documents\repos\PeopleLib\PeopleLib\obj\Debug\PeopleLib.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\PeopleLib\PeopleLib\obj\Debug\PeopleLib.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\PeopleLib\PeopleLib\obj\Debug\PeopleLib.dll
+Z:\IGMProfile\Documents\repos\PeopleLib\PeopleLib\obj\Debug\PeopleLib.pdb

@@ -1,0 +1,12 @@
+Z:\IGMProfile\Documents\repos\PeopleApp\PeopleApp\obj\Debug\PeopleApp.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\PeopleApp\PeopleApp\obj\Debug\PeopleApp.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\PeopleApp\PeopleApp\bin\Debug\PeopleApp.exe.config
+Z:\IGMProfile\Documents\repos\PeopleApp\PeopleApp\bin\Debug\PeopleApp.exe
+Z:\IGMProfile\Documents\repos\PeopleApp\PeopleApp\bin\Debug\PeopleApp.pdb
+Z:\IGMProfile\Documents\repos\PeopleApp\PeopleApp\bin\Debug\CourseLib.dll
+Z:\IGMProfile\Documents\repos\PeopleApp\PeopleApp\bin\Debug\PeopleLib.dll
+Z:\IGMProfile\Documents\repos\PeopleApp\PeopleApp\bin\Debug\CourseLib.pdb
+Z:\IGMProfile\Documents\repos\PeopleApp\PeopleApp\bin\Debug\PeopleLib.pdb
+Z:\IGMProfile\Documents\repos\PeopleApp\PeopleApp\obj\Debug\PeopleApp.csproj.CopyComplete
+Z:\IGMProfile\Documents\repos\PeopleApp\PeopleApp\obj\Debug\PeopleApp.exe
+Z:\IGMProfile\Documents\repos\PeopleApp\PeopleApp\obj\Debug\PeopleApp.pdb
