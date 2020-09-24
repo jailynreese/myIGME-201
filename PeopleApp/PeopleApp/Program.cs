@@ -9,8 +9,15 @@ using CourseLib;
 
 namespace PeopleApp
 {
+    //Class Program
+    //Author: Jailyn Talavera
+    //Purpose: PE12 Defining Class Members
+    //Restrictions: none
     class PeopleApp
     {
+        //Method: MAin
+        //Purpose: people app
+        //Restrictions: none
         static void Main(string[] args)
         {
             //create our Courses SortedList
@@ -122,6 +129,32 @@ namespace PeopleApp
                                 // gpa only belongs to Student, so we need a Student reference variable to output that
                                 Student student = (Student)thisPerson;
                                 Console.WriteLine($"{student.gpa}");
+
+ 
+                                //courses initialization
+                                Courses sched = new Courses();
+
+                                //display courseCode and courseDescription
+                                foreach (KeyValuePair<string, Course> thisSched in sched.sortedList)
+                                {
+                                    //obtain each course in courses 
+                                    Course _class = (Course)thisSched.Value;
+
+                                    //print courseCode & description
+                                    Console.Write(_class.courseCode + " " + _class.description + " ");
+                 
+                                    //prints all days that class is 
+                                    foreach(DayOfWeek day in _class.schedule.daysOfWeek)
+                                    {
+                                        Console.Write(day + " ");
+                                    }
+
+                                    //prints time of class
+                                    Console.Write($"{_class.schedule.startTime:hh:mmtt}");
+
+                                    Console.WriteLine();
+
+                                }
                             }
 
                             if (thisPerson.GetType() == typeof(Teacher))
@@ -208,6 +241,7 @@ namespace PeopleApp
                 }
             } while (true);
 
+
             if (thisPerson.GetType() == typeof(Student))
             {
                 Student thisStudent = (Student)thisPerson;
@@ -228,6 +262,24 @@ namespace PeopleApp
                         break;
                     }
                 } while (true);
+
+
+                //for prompting courseCodes
+                do
+                {
+                    Console.Write("Course code => ");
+                    string courseCode = Console.ReadLine();
+                    if (courseCode.Length == 0)
+                    {
+                        thisStudent.courseCodes.Add(courseCode);
+                        break;
+
+                    }
+                    else
+                    {
+                        break;
+                    }
+                } while (true);
             }
 
             if (thisPerson.GetType() == typeof(Teacher))
@@ -241,6 +293,8 @@ namespace PeopleApp
                     thisTeacher.specialty = sSpecialty;
                 }
             }
+
+
         }
 
         public static void LiveADay(object obj)

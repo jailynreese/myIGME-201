@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CourseLib
 {
+    //Schedule class
     public class Schedule
     {
         public DateTime startTime;
@@ -16,9 +17,10 @@ namespace CourseLib
 
     }
 
-
+    //courses class
     public class Courses
     {
+           //courses constructor
         public Courses()
         {
             Course thisCourse;
@@ -62,7 +64,7 @@ namespace CourseLib
         // the generic SortedList class uses a template <> to store indexed data
         // the first type is the data type to index on
         // the second type is the data type to store in the list
-        // create a Sorted List indexed on courseCode (string) and storing Person objects
+        // create a Sorted List indexed on courseCode (string) and storing Courses objects
         public SortedList<string, Course> sortedList = new SortedList<string, Course>();
 
         public void Remove(string courseCode)
@@ -77,11 +79,11 @@ namespace CourseLib
         // and catching missing keys and duplicate key exceptions 
         // notice the indexer property definition shows how it will be used in the calling code:
         // if we have:
-        //     People people;
+        //     Courses course;
         // then we can call:
-        //     people[email] to access the Person object with that email address
-        // and value will be the Person object (person) being added to the list in the case of:
-        //     people[email] = person;
+        //     Courses[courseCode] to access the Course object with that courseCOde
+        // and value will be the Person object (course) being added to the list in the case of:
+        //     COurses[courseCode] = Course;
         public Course this[string courseCode]
         {
             get
