@@ -1,0 +1,7 @@
+Z:\IGMProfile\Documents\repos\Classy\Classy\bin\Debug\Classy.exe.config
+Z:\IGMProfile\Documents\repos\Classy\Classy\bin\Debug\Classy.exe
+Z:\IGMProfile\Documents\repos\Classy\Classy\bin\Debug\Classy.pdb
+Z:\IGMProfile\Documents\repos\Classy\Classy\obj\Debug\Classy.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\Classy\Classy\obj\Debug\Classy.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\Classy\Classy\obj\Debug\Classy.exe
+Z:\IGMProfile\Documents\repos\Classy\Classy\obj\Debug\Classy.pdb
