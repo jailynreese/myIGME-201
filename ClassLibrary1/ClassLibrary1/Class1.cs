@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace CafeLib
 {
+    //Library: CafeLib
+    //Author: Jailyn Talavera
+    //Purpose: PE16 Classiest
+    //Restrictions: None
+
     public interface Mood
     {
         string Mood { get; }
