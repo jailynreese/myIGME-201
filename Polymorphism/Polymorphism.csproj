@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AF4EB775-CF6D-4087-A80B-72F3AB506970}</ProjectGuid>
+    <ProjectGuid>{5FFC6B80-BD4A-4FDB-AE09-1ECC40991883}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Sewing</RootNamespace>
-    <AssemblyName>Sewing</AssemblyName>
+    <RootNamespace>Polymorphism</RootNamespace>
+    <AssemblyName>Polymorphism</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="SewingLib">
-      <HintPath>..\SewingLib\bin\Debug\SewingLib.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

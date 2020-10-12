@@ -1,0 +1,10 @@
+Z:\IGMProfile\Documents\repos\Sewing\bin\Debug\Sewing.exe.config
+Z:\IGMProfile\Documents\repos\Sewing\bin\Debug\Sewing.exe
+Z:\IGMProfile\Documents\repos\Sewing\bin\Debug\Sewing.pdb
+Z:\IGMProfile\Documents\repos\Sewing\bin\Debug\SewingLib.dll
+Z:\IGMProfile\Documents\repos\Sewing\bin\Debug\SewingLib.pdb
+Z:\IGMProfile\Documents\repos\Sewing\obj\Debug\Sewing.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\Sewing\obj\Debug\Sewing.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\Sewing\obj\Debug\Sewing.csproj.CopyComplete
+Z:\IGMProfile\Documents\repos\Sewing\obj\Debug\Sewing.exe
+Z:\IGMProfile\Documents\repos\Sewing\obj\Debug\Sewing.pdb

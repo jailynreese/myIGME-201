@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30317.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SewingLib", "SewingLib.csproj", "{AFA4BF45-3655-441F-BE01-1CE393C2ED71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFA4BF45-3655-441F-BE01-1CE393C2ED71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA4BF45-3655-441F-BE01-1CE393C2ED71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA4BF45-3655-441F-BE01-1CE393C2ED71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA4BF45-3655-441F-BE01-1CE393C2ED71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF74748F-E83B-43F0-92F3-BA35C19D369E}
+	EndGlobalSection
+EndGlobal

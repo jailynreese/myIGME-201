@@ -1,0 +1,6 @@
+Z:\IGMProfile\Documents\repos\SewingLib\bin\Debug\SewingLib.dll
+Z:\IGMProfile\Documents\repos\SewingLib\bin\Debug\SewingLib.pdb
+Z:\IGMProfile\Documents\repos\SewingLib\obj\Debug\SewingLib.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\SewingLib\obj\Debug\SewingLib.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\SewingLib\obj\Debug\SewingLib.dll
+Z:\IGMProfile\Documents\repos\SewingLib\obj\Debug\SewingLib.pdb
