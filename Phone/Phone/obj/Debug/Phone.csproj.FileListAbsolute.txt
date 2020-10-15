@@ -1,0 +1,10 @@
+Z:\IGMProfile\Documents\repos\Phone\Phone\bin\Debug\Phone.exe.config
+Z:\IGMProfile\Documents\repos\Phone\Phone\bin\Debug\Phone.exe
+Z:\IGMProfile\Documents\repos\Phone\Phone\bin\Debug\Phone.pdb
+Z:\IGMProfile\Documents\repos\Phone\Phone\bin\Debug\PhoneLib.dll
+Z:\IGMProfile\Documents\repos\Phone\Phone\bin\Debug\PhoneLib.pdb
+Z:\IGMProfile\Documents\repos\Phone\Phone\obj\Debug\Phone.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\Phone\Phone\obj\Debug\Phone.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\Phone\Phone\obj\Debug\Phone.csproj.CopyComplete
+Z:\IGMProfile\Documents\repos\Phone\Phone\obj\Debug\Phone.exe
+Z:\IGMProfile\Documents\repos\Phone\Phone\obj\Debug\Phone.pdb

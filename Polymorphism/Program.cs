@@ -7,11 +7,19 @@ using System.Threading.Tasks;
 
 namespace Polymorphism
 {
-    class Program
+    public sealed class Circus
     {
-        static void Main(string[] args)
+        public string name;
+    }
+
+
+    static class Program
+    {
+        static void Main()
         {
-            //Hat bucketHat = new Hat();
+
+            Circus myCircus = new Circus();
         }
     }
+
 }

@@ -1,0 +1,7 @@
+Z:\IGMProfile\Documents\repos\Tuple\bin\Debug\Tuple.exe.config
+Z:\IGMProfile\Documents\repos\Tuple\bin\Debug\Tuple.exe
+Z:\IGMProfile\Documents\repos\Tuple\bin\Debug\Tuple.pdb
+Z:\IGMProfile\Documents\repos\Tuple\obj\Debug\Tuple.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\Tuple\obj\Debug\Tuple.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\Tuple\obj\Debug\Tuple.exe
+Z:\IGMProfile\Documents\repos\Tuple\obj\Debug\Tuple.pdb

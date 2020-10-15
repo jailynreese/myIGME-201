@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace SewingLib
 {
+    //sew interface
     public interface Sew
     {
         void StartSewing();
         void StopSewing();
     }
 
+    //artist interface
     public interface Artist
     {
         void GetCoupons();
@@ -19,6 +21,7 @@ namespace SewingLib
 
     }
 
+    //Material abstract class
     public abstract class Material
     {
         public string threadColor;
@@ -36,6 +39,7 @@ namespace SewingLib
         public abstract void CutFabric();
     }
 
+    //Dress class inherits from Material and Sew
     public class Dress : Material, Sew
     {
         private int size;
@@ -59,6 +63,7 @@ namespace SewingLib
         }
     }
 
+    //Hat inherits from Material
     public class Hat : Material
     {
         public int headSize;
@@ -69,6 +74,7 @@ namespace SewingLib
         }
     }
 
+    //Shopping class inherits from Artist
     public class Shopping : Artist
     {
 
