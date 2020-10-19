@@ -6,6 +6,21 @@ using System.Threading.Tasks;
 
 namespace PeopleLib
 {
+    public enum genderPronoun
+    {
+        him,
+        her,
+        them
+    }
+
+    public enum collegeYear : byte
+    {
+        freshman = 24,
+        sophomore = 23,
+        junior = 22,
+        senior = 21
+    }
+
     public abstract class Person
     {
         public string name;
@@ -67,20 +82,6 @@ namespace PeopleLib
             Console.WriteLine("work work work");
         }
 
-        public enum genderPronoun
-        {
-            him,
-            her,
-            them
-        }
-
-        public enum collegeYear : byte
-        {
-            freshman = 24,
-            sophomore = 23,
-            junior = 22,
-            senior = 21
-        }
     }
 
     public interface IStudent

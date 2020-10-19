@@ -172,7 +172,35 @@ namespace EditPerson
                 this.typeComboBox.SelectedIndex = 0;
                 Student student = (Student)person;
                 this.gpaText.Text = student.gpa.ToString();
-                student.eCollegeYear = collegeYear.senior;
+
+                if (student.name == null)
+                {
+                    // default class to senior
+                    this.seniorRadioButton.Checked = true;
+                }
+                else
+                {
+                    switch (student.eCollegeYear)
+                    {
+                        case collegeYear.freshman:
+                            this.froshRadioButton.Checked = true;
+                            break;
+
+                        case collegeYear.sophomore:
+                            this.sophRadioButton.Checked = true;
+                            break;
+
+                        case collegeYear.junior:
+                            this.juniorRadioButton.Checked = true;
+                            break;
+
+                        case collegeYear.senior:
+                        default:
+                            this.seniorRadioButton.Checked = true;
+                            break;
+                    }
+                }
+
             }
             else
             {
@@ -183,9 +211,26 @@ namespace EditPerson
 
             if(person.name == null)
             {
-                person.eGender = genderProunoun.them;
+                //default to them
                 this.themRadioButton.Checked = true;
+            } else
+            {
+                switch (person.eGender)
+                {
+                    case genderPronoun.her:
+                        this.herRadioButton.Checked = true;
+                        break;
+
+                    case genderPronoun.him:
+                        this.himRadioButton.Checked = true;
+                        break;
+
+                    case genderPronoun.them:
+                        this.themRadioButton.Checked = true;
+                        break;
+                }
             }
+
 
          
 
@@ -439,13 +484,46 @@ namespace EditPerson
             person.email = this.emailText.Text;
             person.age = Convert.ToInt32(this.ageText.Text);
             person.LicenseId = Convert.ToInt32(this.licText.Text);
-            person.eGender = ;
-            
 
-            if( person.GetType() == typeof( Student))
+            if (this.herRadioButton.Checked)
+            {
+                person.eGender = genderPronoun.her;
+            }
+
+            if (this.himRadioButton.Checked)
+            {
+                person.eGender = genderPronoun.him;
+            }
+
+            if (this.themRadioButton.Checked)
+            {
+                person.eGender = genderPronoun.them;
+            }
+
+
+            if ( person.GetType() == typeof( Student))
             {
                 student.gpa = Convert.ToDouble(this.gpaText.Text);
-                student.eCollegeYear = collegeYear.;
+                
+                if(this.froshRadioButton.Checked)
+                {
+                    student.eCollegeYear = collegeYear.freshman;
+                }
+
+                if (this.sophRadioButton.Checked)
+                {
+                    student.eCollegeYear = collegeYear.sophomore;
+                }
+
+                if (this.juniorRadioButton.Checked)
+                {
+                    student.eCollegeYear = collegeYear.junior;
+                }
+
+                if (this.seniorRadioButton.Checked)
+                {
+                    student.eCollegeYear = collegeYear.senior;
+                }
             }
             else
             {
