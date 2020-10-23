@@ -97,6 +97,8 @@ namespace CourseList
 
             // call PaintListView with null to indicate starting at top of list
             PaintListView(null);
+
+            
         }
 
 
@@ -212,7 +214,7 @@ namespace CourseList
                 this.courseListView.Items.Add(lvi);
 
                 // 36. increment our counter to alternate colors and check for nStartEl
-                lviCntr+;
+                lviCntr++;
             }
 
 
@@ -247,7 +249,7 @@ namespace CourseList
                 this.courseDescriptionTextBox.Text = course.description;
 
                 // 43. set the reviewRichTextBox to hold the review
-                this.reviewRichTextBox.Text = reviewLabel;
+                this.reviewRichTextBox.Text = course.review;
 
                 // 44. disable the ListView lv using the Enabled property
                 lv.Enabled = false;
@@ -388,13 +390,13 @@ namespace CourseList
             }
 
             // 66. copy courseCodeTextBox into our cloned object copyCourse
-            copyCourse = courseCodeTextBox.Clone();
+            copyCourse.courseCode = courseCodeTextBox.Text;
 
             // 67. copy courseDescriptionTextBox into our cloned object copyCourse
-            copyCourse = courseDescriptionTextBox.Clone();
+            copyCourse.description = courseDescriptionTextBox.Text;
 
             // 68. copy reviewRichTextBox into our cloned object copyCourse
-            copyCourse = reviewRichTextBox.Clone();
+            copyCourse.review = reviewRichTextBox.Text;
 
             // remove the updated courseCode from courses
             Globals.courses.Remove(copyCourse.courseCode);

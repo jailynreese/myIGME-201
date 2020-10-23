@@ -1,0 +1,17 @@
+Z:\IGMProfile\Documents\repos\PE19\CourseList\obj\Release\CourseList.CourseListForm.resources
+Z:\IGMProfile\Documents\repos\PE19\CourseList\obj\Release\CourseList.Properties.Resources.resources
+Z:\IGMProfile\Documents\repos\PE19\CourseList\obj\Release\CourseList.csproj.GenerateResource.cache
+Z:\IGMProfile\Documents\repos\PE19\CourseList\obj\Release\CourseList.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\PE19\CourseList\bin\Release\CourseList.exe.config
+Z:\IGMProfile\Documents\repos\PE19\CourseList\bin\Release\CourseList.exe
+Z:\IGMProfile\Documents\repos\PE19\CourseList\bin\Release\CourseList.pdb
+Z:\IGMProfile\Documents\repos\PE19\CourseList\bin\Release\CourseLib.dll
+Z:\IGMProfile\Documents\repos\PE19\CourseList\bin\Release\PeopleAppGlobals.dll
+Z:\IGMProfile\Documents\repos\PE19\CourseList\bin\Release\PeopleLib.dll
+Z:\IGMProfile\Documents\repos\PE19\CourseList\bin\Release\CourseLib.pdb
+Z:\IGMProfile\Documents\repos\PE19\CourseList\bin\Release\PeopleAppGlobals.pdb
+Z:\IGMProfile\Documents\repos\PE19\CourseList\bin\Release\PeopleLib.pdb
+Z:\IGMProfile\Documents\repos\PE19\CourseList\obj\Release\CourseList.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\PE19\CourseList\obj\Release\CourseList.csproj.CopyComplete
+Z:\IGMProfile\Documents\repos\PE19\CourseList\obj\Release\CourseList.exe
+Z:\IGMProfile\Documents\repos\PE19\CourseList\obj\Release\CourseList.pdb
