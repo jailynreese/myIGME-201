@@ -1,0 +1,15 @@
+Z:\IGMProfile\Documents\repos\PE20\bin\Debug\netcoreapp3.1\PE20.exe
+Z:\IGMProfile\Documents\repos\PE20\bin\Debug\netcoreapp3.1\PE20.deps.json
+Z:\IGMProfile\Documents\repos\PE20\bin\Debug\netcoreapp3.1\PE20.runtimeconfig.json
+Z:\IGMProfile\Documents\repos\PE20\bin\Debug\netcoreapp3.1\PE20.runtimeconfig.dev.json
+Z:\IGMProfile\Documents\repos\PE20\bin\Debug\netcoreapp3.1\PE20.dll
+Z:\IGMProfile\Documents\repos\PE20\bin\Debug\netcoreapp3.1\PE20.pdb
+Z:\IGMProfile\Documents\repos\PE20\obj\Debug\netcoreapp3.1\PE20.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\PE20\obj\Debug\netcoreapp3.1\PE20.Form1.resources
+Z:\IGMProfile\Documents\repos\PE20\obj\Debug\netcoreapp3.1\PE20.csproj.GenerateResource.cache
+Z:\IGMProfile\Documents\repos\PE20\obj\Debug\netcoreapp3.1\PE20.AssemblyInfoInputs.cache
+Z:\IGMProfile\Documents\repos\PE20\obj\Debug\netcoreapp3.1\PE20.AssemblyInfo.cs
+Z:\IGMProfile\Documents\repos\PE20\obj\Debug\netcoreapp3.1\PE20.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\PE20\obj\Debug\netcoreapp3.1\PE20.dll
+Z:\IGMProfile\Documents\repos\PE20\obj\Debug\netcoreapp3.1\PE20.pdb
+Z:\IGMProfile\Documents\repos\PE20\obj\Debug\netcoreapp3.1\PE20.genruntimeconfig.cache

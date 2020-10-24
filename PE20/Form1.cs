@@ -42,43 +42,41 @@ namespace PE20
             WebBrowser webBrowser = (WebBrowser)sender;
             HtmlElementCollection htmlElementCollection;
             HtmlElement htmlElement;
-        }
 
-        private void HomepageWebBrowser__DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
-        {
-            WebBrowser wb = (WebBrowser)sender;
-
-            HtmlElementCollection htmlElementCollection;
-            HtmlElement htmlElement;
-
-            htmlElement = wb.Document.Body;
+            htmlElement = webBrowser.Document.Body;
             htmlElement.Style += "font-family: sans-serif; color: #a000a0;";
 
-            htmlElementCollection = wb.Document.GetElementsByTagName("h1");
+            htmlElementCollection = webBrowser.Document.GetElementsByTagName("h1");
             htmlElement = htmlElementCollection[0];
-            htmlElement.InnerText = "My Kitten Page";
+            htmlElement.InnerText = "My UFO Page";
 
-            htmlElementCollection = wb.Document.GetElementsByTagName("h2");
+            htmlElementCollection = webBrowser.Document.GetElementsByTagName("h2");
             htmlElement = htmlElementCollection[0];
-            htmlElement.InnerText = "Meow!";
+            htmlElement.InnerText = "My UFO Info";
 
             htmlElement = htmlElementCollection[1];
-            htmlElement.InnerHtml = "<a href='http://www.kittens.com'>Kitties!</a>";
+            htmlElement.InnerHtml = "My UFO Pictures";
 
             htmlElementCollection[2].InnerText = "";
 
-            htmlElement = wb.Document.GetElementById("lastParagraph");
+            htmlElementCollection = webBrowser.Document.GetElementsByTagName("p");
+            htmlElement = htmlElementCollection[0];
+            htmlElement.InnerHtml = "Report your UFO sightings here: <a href='http://www.nuforc.org'>http://www.nuforc.org</a>";
+            htmlElement.Style += "color: #a000a0; font-weight: bold; font-size: 2em; text-transform: uppercase; text-shadow: 3px 2px #A44";
 
-            HtmlElement htmlElement1 = wb.Document.CreateElement("img");
-            htmlElement1.SetAttribute("src", "https://en.bcdn.biz/Images/2018/6/12/27565ee3-ffc0-4a4d-af63-ce8731b65f26.jpg");
-            htmlElement1.SetAttribute("title", "awwww");
+            htmlElementCollection[1].InnerText = "";
+
+            htmlElement = webBrowser.Document.GetElementById("lastParagraph");
+
+            HtmlElement htmlElement1 = webBrowser.Document.CreateElement("img");
+            htmlElement1.SetAttribute("src", "https://images.axios.com/40yKmjksUxd94lm5FsUDW9g_Plk=/0x0:6850x3853/1920x1080/2019/04/25/1556227241167.jpg");
 
             htmlElement.InsertAdjacentElement(HtmlElementInsertionOrientation.AfterBegin, htmlElement1);
 
-            htmlElement1 = wb.Document.CreateElement("footer");
+            htmlElement1 = webBrowser.Document.CreateElement("footer");
 
-            htmlElement1.InnerHtml = "&copy;2020 <a href='people.rit.edu/dxsigm'>D.Schuh</a>";
-            wb.Document.Body.AppendChild(htmlElement1);
+            htmlElement1.InnerHtml = "&copy;2020 Jailyn Talavera";
+            webBrowser.Document.Body.AppendChild(htmlElement1);
         }
     }
 }
