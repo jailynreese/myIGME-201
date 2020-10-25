@@ -1,0 +1,10 @@
+Z:\IGMProfile\Documents\repos\DOMmanipulation\bin\Debug\DOMmanipulation.exe.config
+Z:\IGMProfile\Documents\repos\DOMmanipulation\bin\Debug\DOMmanipulation.exe
+Z:\IGMProfile\Documents\repos\DOMmanipulation\bin\Debug\DOMmanipulation.pdb
+Z:\IGMProfile\Documents\repos\DOMmanipulation\obj\Debug\DOMmanipulation.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\DOMmanipulation\obj\Debug\DOMmanipulation.Form1.resources
+Z:\IGMProfile\Documents\repos\DOMmanipulation\obj\Debug\DOMmanipulation.Properties.Resources.resources
+Z:\IGMProfile\Documents\repos\DOMmanipulation\obj\Debug\DOMmanipulation.csproj.GenerateResource.cache
+Z:\IGMProfile\Documents\repos\DOMmanipulation\obj\Debug\DOMmanipulation.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\DOMmanipulation\obj\Debug\DOMmanipulation.exe
+Z:\IGMProfile\Documents\repos\DOMmanipulation\obj\Debug\DOMmanipulation.pdb
