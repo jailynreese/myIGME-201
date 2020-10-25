@@ -1,0 +1,10 @@
+Z:\IGMProfile\Documents\repos\PE21\MyEditor\bin\Debug\MyEditor.exe.config
+Z:\IGMProfile\Documents\repos\PE21\MyEditor\bin\Debug\MyEditor.exe
+Z:\IGMProfile\Documents\repos\PE21\MyEditor\bin\Debug\MyEditor.pdb
+Z:\IGMProfile\Documents\repos\PE21\MyEditor\obj\Debug\MyEditor.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\PE21\MyEditor\obj\Debug\MyEditor.Form1.resources
+Z:\IGMProfile\Documents\repos\PE21\MyEditor\obj\Debug\MyEditor.Properties.Resources.resources
+Z:\IGMProfile\Documents\repos\PE21\MyEditor\obj\Debug\MyEditor.csproj.GenerateResource.cache
+Z:\IGMProfile\Documents\repos\PE21\MyEditor\obj\Debug\MyEditor.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\PE21\MyEditor\obj\Debug\MyEditor.exe
+Z:\IGMProfile\Documents\repos\PE21\MyEditor\obj\Debug\MyEditor.pdb
