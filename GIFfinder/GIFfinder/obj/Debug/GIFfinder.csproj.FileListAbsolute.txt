@@ -1,0 +1,12 @@
+Z:\IGMProfile\Documents\repos\GIFfinder\GIFfinder\obj\Debug\GIFfinder.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\GIFfinder\GIFfinder\obj\Debug\GIFfinder.GifFinder.resources
+Z:\IGMProfile\Documents\repos\GIFfinder\GIFfinder\obj\Debug\GIFfinder.searchForm.resources
+Z:\IGMProfile\Documents\repos\GIFfinder\GIFfinder\obj\Debug\GIFfinder.ImageForm.resources
+Z:\IGMProfile\Documents\repos\GIFfinder\GIFfinder\obj\Debug\GIFfinder.Properties.Resources.resources
+Z:\IGMProfile\Documents\repos\GIFfinder\GIFfinder\obj\Debug\GIFfinder.csproj.GenerateResource.cache
+Z:\IGMProfile\Documents\repos\GIFfinder\GIFfinder\obj\Debug\GIFfinder.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\GIFfinder\GIFfinder\bin\Debug\GIFfinder.exe.config
+Z:\IGMProfile\Documents\repos\GIFfinder\GIFfinder\bin\Debug\GIFfinder.exe
+Z:\IGMProfile\Documents\repos\GIFfinder\GIFfinder\bin\Debug\GIFfinder.pdb
+Z:\IGMProfile\Documents\repos\GIFfinder\GIFfinder\obj\Debug\GIFfinder.exe
+Z:\IGMProfile\Documents\repos\GIFfinder\GIFfinder\obj\Debug\GIFfinder.pdb
