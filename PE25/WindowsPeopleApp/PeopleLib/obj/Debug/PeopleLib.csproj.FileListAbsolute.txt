@@ -8,3 +8,9 @@ C:\Users\dschuh\source\repos\IGME-201\WindowsPeopleApp\PeopleLib\obj\Debug\Peopl
 C:\Users\dschuh\source\repos\IGME-201\WindowsPeopleApp\PeopleLib\obj\Debug\PeopleLib.csproj.CoreCompileInputs.cache
 C:\Users\dschuh\source\repos\IGME-201\WindowsPeopleApp\PeopleLib\obj\Debug\PeopleLib.dll
 C:\Users\dschuh\source\repos\IGME-201\WindowsPeopleApp\PeopleLib\obj\Debug\PeopleLib.pdb
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\PeopleLib\bin\Debug\PeopleLib.dll
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\PeopleLib\bin\Debug\PeopleLib.pdb
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\PeopleLib\obj\Debug\PeopleLib.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\PeopleLib\obj\Debug\PeopleLib.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\PeopleLib\obj\Debug\PeopleLib.dll
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\PeopleLib\obj\Debug\PeopleLib.pdb

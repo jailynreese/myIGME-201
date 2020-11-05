@@ -19,3 +19,14 @@ C:\Users\dschuh\source\repos\IGME-201\WindowsPeopleApp\PeopleAppGlobals\obj\Debu
 C:\Users\dschuh\source\repos\IGME-201\WindowsPeopleApp\PeopleAppGlobals\obj\Debug\PeopleAppGlobals.dll
 C:\Users\dschuh\source\repos\IGME-201\WindowsPeopleApp\PeopleAppGlobals\obj\Debug\PeopleAppGlobals.pdb
 C:\Users\dschuh\source\repos\IGME-201\WindowsPeopleApp\PeopleAppGlobals\obj\Debug\PeopleAppGlobals.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\PeopleAppGlobals\bin\Debug\PeopleAppGlobals.dll
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\PeopleAppGlobals\bin\Debug\PeopleAppGlobals.pdb
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\PeopleAppGlobals\bin\Debug\CourseLib.dll
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\PeopleAppGlobals\bin\Debug\PeopleLib.dll
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\PeopleAppGlobals\bin\Debug\CourseLib.pdb
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\PeopleAppGlobals\bin\Debug\PeopleLib.pdb
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\PeopleAppGlobals\obj\Debug\PeopleAppGlobals.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\PeopleAppGlobals\obj\Debug\PeopleAppGlobals.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\PeopleAppGlobals\obj\Debug\PeopleAppGlobals.csproj.CopyComplete
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\PeopleAppGlobals\obj\Debug\PeopleAppGlobals.dll
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\PeopleAppGlobals\obj\Debug\PeopleAppGlobals.pdb

@@ -15,3 +15,9 @@ C:\Users\dschuh\source\repos\IGME-201\WindowsPeopleApp\CourseLib\obj\Debug\Cours
 C:\Users\dschuh\source\repos\IGME-201\WindowsPeopleApp\CourseLib\obj\Debug\CourseLib.dll
 C:\Users\dschuh\source\repos\IGME-201\WindowsPeopleApp\CourseLib\obj\Debug\CourseLib.pdb
 C:\Users\dschuh\source\repos\IGME-201\WindowsPeopleApp\CourseLib\obj\Debug\CourseLib.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\CourseLib\bin\Debug\CourseLib.dll
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\CourseLib\bin\Debug\CourseLib.pdb
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\CourseLib\obj\Debug\CourseLib.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\CourseLib\obj\Debug\CourseLib.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\CourseLib\obj\Debug\CourseLib.dll
+Z:\IGMProfile\Documents\repos\PE25\WindowsPeopleApp\CourseLib\obj\Debug\CourseLib.pdb
