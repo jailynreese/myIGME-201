@@ -1,0 +1,10 @@
+Z:\IGMProfile\Documents\repos\PE27\PE27\bin\Debug\PE27.exe.config
+Z:\IGMProfile\Documents\repos\PE27\PE27\bin\Debug\PE27.exe
+Z:\IGMProfile\Documents\repos\PE27\PE27\bin\Debug\PE27.pdb
+Z:\IGMProfile\Documents\repos\PE27\PE27\bin\Debug\Newtonsoft.Json.dll
+Z:\IGMProfile\Documents\repos\PE27\PE27\bin\Debug\Newtonsoft.Json.xml
+Z:\IGMProfile\Documents\repos\PE27\PE27\obj\Debug\PE27.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\PE27\PE27\obj\Debug\PE27.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\PE27\PE27\obj\Debug\PE27.csproj.CopyComplete
+Z:\IGMProfile\Documents\repos\PE27\PE27\obj\Debug\PE27.exe
+Z:\IGMProfile\Documents\repos\PE27\PE27\obj\Debug\PE27.pdb
