@@ -1,0 +1,10 @@
+Z:\IGMProfile\Documents\repos\Presidents\Presidents\obj\Debug\Presidents.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\Presidents\Presidents\obj\Debug\Presidents.Form1.resources
+Z:\IGMProfile\Documents\repos\Presidents\Presidents\obj\Debug\Presidents.Properties.Resources.resources
+Z:\IGMProfile\Documents\repos\Presidents\Presidents\obj\Debug\Presidents.csproj.GenerateResource.cache
+Z:\IGMProfile\Documents\repos\Presidents\Presidents\obj\Debug\Presidents.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\Presidents\Presidents\bin\Debug\Presidents.exe.config
+Z:\IGMProfile\Documents\repos\Presidents\Presidents\bin\Debug\Presidents.exe
+Z:\IGMProfile\Documents\repos\Presidents\Presidents\bin\Debug\Presidents.pdb
+Z:\IGMProfile\Documents\repos\Presidents\Presidents\obj\Debug\Presidents.exe
+Z:\IGMProfile\Documents\repos\Presidents\Presidents\obj\Debug\Presidents.pdb

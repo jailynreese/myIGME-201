@@ -3,7 +3,6 @@ Z:\IGMProfile\Documents\repos\PeopleApp\PeopleApp\obj\Debug\PeopleApp.csproj.Cor
 Z:\IGMProfile\Documents\repos\PeopleApp\PeopleApp\bin\Debug\PeopleApp.exe.config
 Z:\IGMProfile\Documents\repos\PeopleApp\PeopleApp\bin\Debug\PeopleApp.exe
 Z:\IGMProfile\Documents\repos\PeopleApp\PeopleApp\bin\Debug\PeopleApp.pdb
-Z:\IGMProfile\Documents\repos\PeopleApp\PeopleApp\bin\Debug\CourseLib.dll
 Z:\IGMProfile\Documents\repos\PeopleApp\PeopleApp\bin\Debug\PeopleLib.dll
 Z:\IGMProfile\Documents\repos\PeopleApp\PeopleApp\bin\Debug\CourseLib.pdb
 Z:\IGMProfile\Documents\repos\PeopleApp\PeopleApp\bin\Debug\PeopleLib.pdb

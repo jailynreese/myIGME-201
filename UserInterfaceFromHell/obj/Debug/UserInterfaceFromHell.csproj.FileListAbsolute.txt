@@ -1,0 +1,11 @@
+Z:\IGMProfile\Documents\repos\UserInterfaceFromHell\bin\Debug\UserInterfaceFromHell.exe.config
+Z:\IGMProfile\Documents\repos\UserInterfaceFromHell\bin\Debug\UserInterfaceFromHell.exe
+Z:\IGMProfile\Documents\repos\UserInterfaceFromHell\bin\Debug\UserInterfaceFromHell.pdb
+Z:\IGMProfile\Documents\repos\UserInterfaceFromHell\obj\Debug\UserInterfaceFromHell.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\UserInterfaceFromHell\obj\Debug\UserInterfaceFromHell.firstForm.resources
+Z:\IGMProfile\Documents\repos\UserInterfaceFromHell\obj\Debug\UserInterfaceFromHell.Properties.Resources.resources
+Z:\IGMProfile\Documents\repos\UserInterfaceFromHell\obj\Debug\UserInterfaceFromHell.csproj.GenerateResource.cache
+Z:\IGMProfile\Documents\repos\UserInterfaceFromHell\obj\Debug\UserInterfaceFromHell.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\UserInterfaceFromHell\obj\Debug\UserInterfaceFromHell.exe
+Z:\IGMProfile\Documents\repos\UserInterfaceFromHell\obj\Debug\UserInterfaceFromHell.pdb
+Z:\IGMProfile\Documents\repos\UserInterfaceFromHell\obj\Debug\UserInterfaceFromHell.Form2.resources
