@@ -26,21 +26,19 @@ namespace UserInterfaceFromHell
         private void NameTextBox__KeyDown(object sender, KeyEventArgs e)
         {
             //if the user typed e, z replaces it
-            if(e.KeyCode == Keys.E)
+            if(e.KeyCode == Keys.E | e.KeyCode == Keys.T)
             {
                 nonNumberEntered = true;
+
+            } else
+            {
+                nonNumberEntered = false;
             }
 
-            //if the user typed a, there is a space that replaces it
-            if(e.KeyCode == Keys.A)
+            if(e.KeyCode == Keys.I | e.KeyCode == Keys.A)
             {
-                nonNumberEntered = true;
-            }
-
-            //if then user typed t, there is a * that replaces it
-            if (e.KeyCode == Keys.T)
-            {
-                nonNumberEntered = true;
+                Random rand = new Random();
+                submitButton.Location = new Point(rand.Next(507), rand.Next(101));
             }
         }
 
@@ -49,7 +47,8 @@ namespace UserInterfaceFromHell
             if(nonNumberEntered)
             {
                 e.Handled = true;
-            }
+            } 
+
 
         }
 
@@ -58,6 +57,11 @@ namespace UserInterfaceFromHell
             Form2 form2 = new Form2();
             form2.Show();
             this.Visible = false;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

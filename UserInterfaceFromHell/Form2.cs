@@ -20,7 +20,9 @@ namespace UserInterfaceFromHell
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            Form3 form = new Form3();
+            form.Show();
+            this.Visible = false;
         }
 
         private void linkLabel1__MouseHover(object sender, EventArgs e)

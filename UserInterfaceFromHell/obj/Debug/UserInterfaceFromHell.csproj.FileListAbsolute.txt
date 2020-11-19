@@ -9,3 +9,4 @@ Z:\IGMProfile\Documents\repos\UserInterfaceFromHell\obj\Debug\UserInterfaceFromH
 Z:\IGMProfile\Documents\repos\UserInterfaceFromHell\obj\Debug\UserInterfaceFromHell.exe
 Z:\IGMProfile\Documents\repos\UserInterfaceFromHell\obj\Debug\UserInterfaceFromHell.pdb
 Z:\IGMProfile\Documents\repos\UserInterfaceFromHell\obj\Debug\UserInterfaceFromHell.Form2.resources
+Z:\IGMProfile\Documents\repos\UserInterfaceFromHell\obj\Debug\UserInterfaceFromHell.Form3.resources
