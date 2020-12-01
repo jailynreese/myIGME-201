@@ -93,6 +93,7 @@ namespace PetCemetery
         public void Evicted(Pets petlist)
         {
             petlist.RemoveAt(0);
+            Console.WriteLine($"{Name}: AAAAAAAAAAAAAAAAAAAAAAH! Help me, I don't like the cold!");
         }
     }
 
