@@ -122,6 +122,7 @@ namespace Dyscord
             HtmlElementCollection htmlElementCollection = webBrowser1.Document.GetElementsByTagName("button");
             Random rand = new Random();
             int randUser = rand.Next(htmlElementCollection.Count);
+            Console.WriteLine(htmlElementCollection);
 
            //foreach(HtmlElement htmlElement in htmlElementCollection)
            //{
@@ -134,19 +135,19 @@ namespace Dyscord
             string title;
             string[] ipPort;
 
-            HtmlElement htmlElement = htmlElementCollection[randUser];
-
-            title = htmlElement.GetAttribute("title");
-            ipPort = title.Split(':');
-            this.targetIp = ipPort[0];
-            this.targetPort = Int32.Parse(ipPort[1]);
-
-            this.targetUser = htmlElement.GetAttribute("name");
-            this.groupBox1.Text = "Conversing with " + targetUser;
-
-            webBrowser1.Visible = false;
-            webBrowser1.SendToBack();
-
+           //HtmlElement htmlElement = htmlElementCollection.Item[randUser];
+           //
+           //title = htmlElement.GetAttribute("title");
+           //ipPort = title.Split(':');
+           //this.targetIp = ipPort[0];
+           //this.targetPort = Int32.Parse(ipPort[1]);
+           //
+           //this.targetUser = htmlElement.GetAttribute("name");
+           //this.groupBox1.Text = "Conversing with " + targetUser;
+           //
+           //webBrowser1.Visible = false;
+           //webBrowser1.SendToBack();
+           //
 
         }
 

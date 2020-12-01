@@ -1,0 +1,7 @@
+Z:\IGMProfile\Documents\repos\PetCemetery\bin\Debug\PetCemetery.exe.config
+Z:\IGMProfile\Documents\repos\PetCemetery\bin\Debug\PetCemetery.exe
+Z:\IGMProfile\Documents\repos\PetCemetery\bin\Debug\PetCemetery.pdb
+Z:\IGMProfile\Documents\repos\PetCemetery\obj\Debug\PetCemetery.csprojAssemblyReference.cache
+Z:\IGMProfile\Documents\repos\PetCemetery\obj\Debug\PetCemetery.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Documents\repos\PetCemetery\obj\Debug\PetCemetery.exe
+Z:\IGMProfile\Documents\repos\PetCemetery\obj\Debug\PetCemetery.pdb

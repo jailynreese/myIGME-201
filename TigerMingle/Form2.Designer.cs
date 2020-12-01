@@ -39,12 +39,12 @@
             this.userTextBox = new System.Windows.Forms.TextBox();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.splitContainer3 = new System.Windows.Forms.SplitContainer();
-            this.questions20Button = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripProgressBar();
+            this.label1 = new System.Windows.Forms.Label();
+            this.questions20Button = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -196,42 +196,6 @@
             this.splitContainer3.SplitterDistance = 562;
             this.splitContainer3.TabIndex = 2;
             // 
-            // questions20Button
-            // 
-            this.questions20Button.Location = new System.Drawing.Point(63, 321);
-            this.questions20Button.Name = "questions20Button";
-            this.questions20Button.Size = new System.Drawing.Size(106, 23);
-            this.questions20Button.TabIndex = 6;
-            this.questions20Button.Text = "20 Questions";
-            this.questions20Button.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(63, 59);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(63, 192);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(87, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 13);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "friend status";
-            // 
             // statusStrip1
             // 
             this.statusStrip1.Dock = System.Windows.Forms.DockStyle.None;
@@ -250,6 +214,42 @@
             this.toolStripStatusLabel1.RightToLeftLayout = true;
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(35, 350);
             this.toolStripStatusLabel1.TextDirection = System.Windows.Forms.ToolStripTextDirection.Vertical270;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(87, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(64, 13);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "friend status";
+            // 
+            // questions20Button
+            // 
+            this.questions20Button.Location = new System.Drawing.Point(90, 324);
+            this.questions20Button.Name = "questions20Button";
+            this.questions20Button.Size = new System.Drawing.Size(106, 23);
+            this.questions20Button.TabIndex = 6;
+            this.questions20Button.Text = "20 Questions";
+            this.questions20Button.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(90, 196);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "Tic Tac Toe";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(90, 59);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Connect 4";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // DysordForm
             // 
