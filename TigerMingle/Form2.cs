@@ -30,10 +30,12 @@ namespace Dyscord
         {
             InitializeComponent();
 
-            this.Show();
+           
             SettingsForm settingsForm = new SettingsForm(this, myPort);
             settingsForm.ShowDialog();
             this.myPort = settingsForm.myPort;
+
+            this.Show();
 
             ThreadStart threadStart = new ThreadStart(Listen);
             thread = new Thread(threadStart);
@@ -55,7 +57,7 @@ namespace Dyscord
             this.sendButton.Click += new EventHandler(SendButton__Click);
             this.exitButton.Click += new EventHandler(ExitButton__Click);
             this.webBrowser1.DocumentCompleted += new WebBrowserDocumentCompletedEventHandler(WebBrowser1__DocumentCompleted);
-
+            this.webBrowser2.DocumentCompleted += new WebBrowserDocumentCompletedEventHandler(WebBrowser2__DocumentCompleted);
             this.FormClosing += new FormClosingEventHandler(Form__FormClosing);
         }
 
@@ -119,35 +121,32 @@ namespace Dyscord
 
         private void WebBrowser1__DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
-            HtmlElementCollection htmlElementCollection = webBrowser1.Document.GetElementsByTagName("button");
-            Random rand = new Random();
-            int randUser = rand.Next(htmlElementCollection.Count);
-            Console.WriteLine(htmlElementCollection);
+            webBrowser2.Navigate("http://people.rit.edu/dxsigm/php/login.php?logins");
 
-           //foreach(HtmlElement htmlElement in htmlElementCollection)
-           //{
-           //    htmlElement.Click += new HtmlElementEventHandler(HtmlElement__Click);
-           //}
-        //}
-        //
-        //private void setUpUser(object sender, HtmlElementEventArgs e)
-        //{
+        }
+
+        private void WebBrowser2__DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            HtmlElementCollection htmlElementCollection = webBrowser2.Document.GetElementsByTagName("button");
+            Random rand = new Random();
+            int randUser = rand.Next(htmlElementCollection.Count-1);
+
+            //make a catch if no one is in the chat room
+
             string title;
             string[] ipPort;
 
-           //HtmlElement htmlElement = htmlElementCollection.Item[randUser];
-           //
-           //title = htmlElement.GetAttribute("title");
-           //ipPort = title.Split(':');
-           //this.targetIp = ipPort[0];
-           //this.targetPort = Int32.Parse(ipPort[1]);
-           //
-           //this.targetUser = htmlElement.GetAttribute("name");
-           //this.groupBox1.Text = "Conversing with " + targetUser;
-           //
-           //webBrowser1.Visible = false;
-           //webBrowser1.SendToBack();
-           //
+            HtmlElement htmlElement = htmlElementCollection[randUser];
+            
+            //
+            title = htmlElement.GetAttribute("title");
+            ipPort = title.Split(':');
+            this.targetIp = ipPort[0];
+            this.targetPort = Int32.Parse(ipPort[1]);
+            //
+            this.targetUser = htmlElement.GetAttribute("name");
+            this.groupBox1.Text = "You've been matched!! ";
+ 
 
         }
 
@@ -179,9 +178,16 @@ namespace Dyscord
         private void UpdateConversation(string text)
         {
             this.convRichTextBox.Text += text + '\n';
+            //this.toolStripProgressBar1.Value += 1;
         }
 
-        private void toolStripProgressBar1_Click(object sender, EventArgs e)
+
+        private void questions20button__Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripStatusLabel1_Click(object sender, EventArgs e)
         {
 
         }

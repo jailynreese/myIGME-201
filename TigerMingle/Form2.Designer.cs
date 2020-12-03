@@ -40,11 +40,12 @@
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.splitContainer3 = new System.Windows.Forms.SplitContainer();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripProgressBar();
             this.label1 = new System.Windows.Forms.Label();
             this.questions20Button = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.webBrowser2 = new System.Windows.Forms.WebBrowser();
+            this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -200,20 +201,13 @@
             // 
             this.statusStrip1.Dock = System.Windows.Forms.DockStyle.None;
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1});
+            this.toolStripProgressBar1});
             this.statusStrip1.Location = new System.Drawing.Point(17, 59);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(54, 356);
+            this.statusStrip1.Size = new System.Drawing.Size(150, 22);
             this.statusStrip1.TabIndex = 10;
             this.statusStrip1.Text = "statusStrip1";
             this.statusStrip1.TextDirection = System.Windows.Forms.ToolStripTextDirection.Vertical270;
-            // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.RightToLeftLayout = true;
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(35, 350);
-            this.toolStripStatusLabel1.TextDirection = System.Windows.Forms.ToolStripTextDirection.Vertical270;
             // 
             // label1
             // 
@@ -226,6 +220,7 @@
             // 
             // questions20Button
             // 
+            this.questions20Button.Enabled = false;
             this.questions20Button.Location = new System.Drawing.Point(90, 324);
             this.questions20Button.Name = "questions20Button";
             this.questions20Button.Size = new System.Drawing.Size(106, 23);
@@ -235,6 +230,7 @@
             // 
             // button3
             // 
+            this.button3.Enabled = false;
             this.button3.Location = new System.Drawing.Point(90, 196);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
@@ -244,6 +240,7 @@
             // 
             // button2
             // 
+            this.button2.Enabled = false;
             this.button2.Location = new System.Drawing.Point(90, 59);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
@@ -251,14 +248,31 @@
             this.button2.Text = "Connect 4";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // webBrowser2
+            // 
+            this.webBrowser2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.webBrowser2.Location = new System.Drawing.Point(0, 0);
+            this.webBrowser2.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser2.Name = "webBrowser2";
+            this.webBrowser2.Size = new System.Drawing.Size(800, 450);
+            this.webBrowser2.TabIndex = 3;
+            this.webBrowser2.Visible = false;
+            // 
+            // toolStripProgressBar1
+            // 
+            this.toolStripProgressBar1.Name = "toolStripProgressBar1";
+            this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 16);
+            this.toolStripProgressBar1.TextDirection = System.Windows.Forms.ToolStripTextDirection.Vertical270;
+            // 
             // DysordForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.splitContainer3);
+            this.Controls.Add(this.webBrowser2);
             this.Name = "DysordForm";
-            this.Text = "Dyscord";
+            this.Text = "Tiger Mingle";
             this.groupBox1.ResumeLayout(false);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
@@ -298,6 +312,7 @@
         private System.Windows.Forms.Button questions20Button;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.ToolStripProgressBar toolStripStatusLabel1;
+        private System.Windows.Forms.WebBrowser webBrowser2;
+        private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
     }
 }
