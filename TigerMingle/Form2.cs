@@ -16,7 +16,7 @@ using System.IO;
 namespace Dyscord
 {
     public delegate void UpdateConversationDelegate(string text);
-    public partial class DysordForm : Form
+    public partial class DysordForm : System.Windows.Forms.Form
     {
         string targetUser = "";
         string targetIp = "";

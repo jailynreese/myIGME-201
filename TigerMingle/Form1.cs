@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Dyscord
 {
-    public partial class SettingsForm : Form
+    public partial class SettingsForm : System.Windows.Forms.Form
     {
         public int myPort;
-        public SettingsForm(Form owner, int nPort)
+        public SettingsForm(System.Windows.Forms.Form owner, int nPort)
         {
             InitializeComponent();
 
