@@ -29,3 +29,5 @@ Z:\IGMProfile\Documents\repos\TigerMingle\obj\Debug\Dyscord.csproj.GenerateResou
 Z:\IGMProfile\Documents\repos\TigerMingle\obj\Debug\Dyscord.csproj.CoreCompileInputs.cache
 Z:\IGMProfile\Documents\repos\TigerMingle\obj\Debug\Dyscord.exe
 Z:\IGMProfile\Documents\repos\TigerMingle\obj\Debug\Dyscord.pdb
+Z:\IGMProfile\Documents\repos\TigerMingle\obj\Debug\Dyscord.HintForm.resources
+Z:\IGMProfile\Documents\repos\TigerMingle\obj\Debug\Dyscord.Form6.resources

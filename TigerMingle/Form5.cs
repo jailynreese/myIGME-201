@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Dyscord
 {
-    public partial class HintForm : Form
+    public partial class PhraseForm : Form
     {
-        public String hint = "";
-        public HintForm(Form owner)
+        public String answer = "";
+        public PhraseForm(Form owner)
         {
             InitializeComponent();
             this.Owner = owner;
@@ -25,7 +25,7 @@ namespace Dyscord
 
         private void SendButton__Click(object sender, EventArgs e)
         {
-            this.hint = this.richTextBox1.Text;
+            this.answer = this.richTextBox1.Text;
             this.Close();
         }
     }

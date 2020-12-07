@@ -1,6 +1,6 @@
 ﻿namespace Dyscord
 {
-    partial class HintForm
+    partial class PhraseForm
     {
         /// <summary>
         /// Required designer variable.
@@ -43,7 +43,7 @@
             // 
             // sendButton
             // 
-            this.sendButton.Location = new System.Drawing.Point(131, 227);
+            this.sendButton.Location = new System.Drawing.Point(131, 195);
             this.sendButton.Name = "sendButton";
             this.sendButton.Size = new System.Drawing.Size(75, 23);
             this.sendButton.TabIndex = 1;
@@ -53,22 +53,21 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(114, 40);
+            this.label1.Location = new System.Drawing.Point(41, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 13);
+            this.label1.Size = new System.Drawing.Size(257, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Give your partner a hint:";
+            this.label1.Text = "Enter a phrase (3 words max) for your friend to guess:";
             // 
-            // HintForm
+            // PhraseForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(348, 289);
+            this.ClientSize = new System.Drawing.Size(348, 243);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.sendButton);
             this.Controls.Add(this.richTextBox1);
-            this.Name = "HintForm";
-            this.Text = "Hint";
+            this.Name = "PhraseForm";
             this.ResumeLayout(false);
             this.PerformLayout();
 
