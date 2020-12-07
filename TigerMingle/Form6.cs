@@ -4,23 +4,36 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net;
+using System.Net.Sockets;
+using System.Threading;
+using System.IO;
 
 namespace Dyscord
 {
     public partial class HangmanForm : Form
     {
-        
+        //answer 
         public string answerString;
+
+        //string that changes as the user gets a letter right 
         public string currentString;
+
+        //lives that -1 when user gets a letter wrong
         public int lives;
-        public HangmanForm(Form startGameForm, String answerString)
+
+        //used to see if guesser won and got all letters
+        public int score;
+        public HangmanForm(Form startGameForm)
         {
             InitializeComponent();
 
-            this.answerString = answerString.ToLower();
+            this.Owner = startGameForm;
+            this.answerString = startGameForm.answer.ToLower();
             this.lives = 6;
 
             //display placement of letters w/ underscores
@@ -72,7 +85,7 @@ namespace Dyscord
         {
             if (answerString.Contains('a'))
             {
-              this.archiveRichTextBox.Text = replaceUnderscore('a', currentString);
+             currentString = replaceUnderscore('a', currentString);
               aButton.Enabled = false;
             } 
             else
@@ -86,7 +99,7 @@ namespace Dyscord
         {
             if (answerString.Contains('b'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('b', currentString);
+                currentString = replaceUnderscore('b', currentString);
                 bButton.Enabled = false;
             }
             else
@@ -100,7 +113,7 @@ namespace Dyscord
         {
             if (answerString.Contains('c'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('c', currentString);
+                currentString = replaceUnderscore('c', currentString);
                 cButton.Enabled = false;
             }
             else
@@ -115,7 +128,7 @@ namespace Dyscord
         {
             if (answerString.Contains('d'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('d', currentString);
+                currentString = replaceUnderscore('d', currentString);
                 dButton.Enabled = false;
             }
             else
@@ -129,7 +142,7 @@ namespace Dyscord
         {
             if (answerString.Contains('e'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('e', currentString);
+                currentString = replaceUnderscore('e', currentString);
                 eButton.Enabled = false;
             }
             else
@@ -143,7 +156,7 @@ namespace Dyscord
         {
             if (answerString.Contains('f'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('f', currentString);
+                currentString = replaceUnderscore('f', currentString);
                 fButton.Enabled = false;
             }
             else
@@ -157,7 +170,7 @@ namespace Dyscord
         {
             if (answerString.Contains('g'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('g', currentString);
+                currentString = replaceUnderscore('g', currentString);
                 gButton.Enabled = false;
             }
             else
@@ -171,7 +184,7 @@ namespace Dyscord
         {
             if (answerString.Contains('h'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('h', currentString);
+                currentString = replaceUnderscore('h', currentString);
                 hButton.Enabled = false;
             }
             else
@@ -185,7 +198,7 @@ namespace Dyscord
         {
             if (answerString.Contains('i'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('i', currentString);
+                currentString = replaceUnderscore('i', currentString);
                 iButton.Enabled = false;
             }
             else
@@ -199,7 +212,7 @@ namespace Dyscord
         {
             if (answerString.Contains('j'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('j', currentString);
+                currentString = replaceUnderscore('j', currentString);
                 jButton.Enabled = false;
             }
             else
@@ -213,7 +226,7 @@ namespace Dyscord
         {
             if (answerString.Contains('k'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('k', currentString);
+                currentString = replaceUnderscore('k', currentString);
                 kButton.Enabled = false;
             }
             else
@@ -227,7 +240,7 @@ namespace Dyscord
         {
             if (answerString.Contains('l'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('l', currentString);
+                currentString = replaceUnderscore('l', currentString);
                 lButton.Enabled = false;
             }
             else
@@ -241,7 +254,7 @@ namespace Dyscord
         {
             if (answerString.Contains('m'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('m', currentString);
+                currentString = replaceUnderscore('m', currentString);
                 mButton.Enabled = false;
             }
             else
@@ -255,7 +268,7 @@ namespace Dyscord
         {
             if (answerString.Contains('n'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('n', currentString);
+                currentString = replaceUnderscore('n', currentString);
                 nButton.Enabled = false;
             }
             else
@@ -269,7 +282,7 @@ namespace Dyscord
         {
             if (answerString.Contains('o'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('o', currentString);
+                currentString = replaceUnderscore('o', currentString);
                 oButton.Enabled = false;
             }
             else
@@ -283,7 +296,7 @@ namespace Dyscord
         {
             if (answerString.Contains('p'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('p', currentString);
+                currentString = replaceUnderscore('p', currentString);
                 pButton.Enabled = false;
             }
             else
@@ -297,7 +310,7 @@ namespace Dyscord
         {
             if (answerString.Contains('q'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('q', currentString);
+                currentString = replaceUnderscore('q', currentString);
                 qButton.Enabled = false;
             }
             else
@@ -311,7 +324,7 @@ namespace Dyscord
         {
             if (answerString.Contains('r'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('r', currentString);
+                currentString = replaceUnderscore('r', currentString);
                 rButton.Enabled = false;
             }
             else
@@ -325,7 +338,7 @@ namespace Dyscord
         {
             if (answerString.Contains('s'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('s', currentString);
+                currentString = replaceUnderscore('s', currentString);
                 sButton.Enabled = false;
             }
             else
@@ -339,7 +352,7 @@ namespace Dyscord
         {
             if (answerString.Contains('t'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('t', currentString);
+                currentString = replaceUnderscore('t', currentString);
                 tButton.Enabled = false;
             }
             else
@@ -353,7 +366,7 @@ namespace Dyscord
         {
             if (answerString.Contains('u'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('u', currentString);
+                currentString = replaceUnderscore('u', currentString);
                 uButton.Enabled = false;
             }
             else
@@ -367,7 +380,7 @@ namespace Dyscord
         {
             if (answerString.Contains('v'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('v', currentString);
+                currentString = replaceUnderscore('v', currentString);
                 vButton.Enabled = false;
             }
             else
@@ -381,7 +394,7 @@ namespace Dyscord
         {
             if (answerString.Contains('w'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('w', currentString);
+                currentString = replaceUnderscore('w', currentString);
                 wButton.Enabled = false;
             }
             else
@@ -395,7 +408,7 @@ namespace Dyscord
         {
             if (answerString.Contains('x'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('x', currentString);
+                currentString = replaceUnderscore('x', currentString);
                 xButton.Enabled = false;
             }
             else
@@ -409,7 +422,7 @@ namespace Dyscord
         {
             if (answerString.Contains('y'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('y', currentString);
+                currentString = replaceUnderscore('y', currentString);
                 yButton.Enabled = false;
             }
             else
@@ -423,7 +436,7 @@ namespace Dyscord
         {
             if (answerString.Contains('z'))
             {
-                this.archiveRichTextBox.Text = replaceUnderscore('z', currentString);
+                currentString = replaceUnderscore('z', currentString);
                 zButton.Enabled = false;
             }
             else
@@ -441,18 +454,50 @@ namespace Dyscord
                 if(phrase[i] == letter)
                 {
                     newPhrase += letter;
+                    score++;
                 } else
                 {
                     newPhrase += phrase[i];
                 }
             }
+            this.archiveRichTextBox.Text = newPhrase;
             return newPhrase;
         }
 
         private void loseLife()
         {
             lives--;
-            if(lives == 0)
+            if(lives == 6)
+            {
+                pictureBox1.Load("https://people.rit.edu/~jrt5717/hangman/2.jpg");
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            }
+            else if(lives == 5)
+            {
+                pictureBox1.Load("https://people.rit.edu/~jrt5717/hangman/3.jpg");
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            }
+            else if (lives == 4)
+            {
+                pictureBox1.Load("https://people.rit.edu/~jrt5717/hangman/4.jpg");
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            }
+            else if (lives == 3)
+            {
+                pictureBox1.Load("https://people.rit.edu/~jrt5717/hangman/5.jpg");
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            }
+            else if (lives == 2)
+            {
+                pictureBox1.Load("https://people.rit.edu/~jrt5717/hangman/6.jpg");
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            }
+            else if (lives == 1)
+            {
+                pictureBox1.Load("https://people.rit.edu/~jrt5717/hangman/7.jpg");
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            }
+            else
             {
                 endGame();
             }
@@ -461,7 +506,33 @@ namespace Dyscord
 
         private void endGame()
         {
+            pictureBox1.Load("https://people.rit.edu/~jrt5717/hangman/1.jpg");
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
 
+            IPAddress iPAddress = IPAddress.Parse(Owner.targetIp);
+            IPEndPoint remoteEndPoint = new IPEndPoint(iPAddress, Owner.targetPort);
+
+            Socket server = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            server.Connect(remoteEndPoint);
+            Stream netStream = new NetworkStream(server);
+            StreamWriter writer = new StreamWriter(netStream);
+
+            if (score == answerString.Length)
+            {
+                this.archiveRichTextBox.Text = answerString + "/n You won!";
+                writer.Write("You lost!");
+            }
+            else
+            {
+                this.archiveRichTextBox.Text = answerString + "/n You lost";
+                writer.Write("You won!");
+            }
+
+            
+
+            writer.Close();
+            netStream.Close();
+            server.Close();
         }
     }
 }

@@ -19,8 +19,8 @@ namespace Dyscord
     public partial class DysordForm : System.Windows.Forms.Form
     {
         string targetUser = "";
-        string targetIp = "";
-        int targetPort;
+        public string targetIp = "";
+        public int targetPort;
         string myIp = "";
         int myPort;
         Thread thread;
@@ -184,7 +184,7 @@ namespace Dyscord
 
         private void questions20button__Click(object sender, EventArgs e)
         {
-
+            PhraseForm phraseForm = new PhraseForm(this);
         }
 
         private void toolStripStatusLabel1_Click(object sender, EventArgs e)
